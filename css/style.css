@@ -1,0 +1,45 @@
+.color-white{
+    color: white;
+}
+.burger-menu{
+    font-size: 2rem;
+}
+.burger-menu-open{
+    display: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.color-grey{
+    color: var(rgb(45, 42, 42));
+}
+.line{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 20%;
+    display: inline;
+    height: 2px
+}
+.star{
+    padding: 0 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+@media-breakpoint-down(md){
+    .burger-menu{
+        display: none;
+    }
+    .burger-menu-open{
+        display: block;
+    }
+}
+
+@media-breakpoint-down(lg){
+    .burger-menu{
+        display: none;
+    }
+    .burger-menu-open{
+        display: block;
+    }
+}
