@@ -86,7 +86,9 @@ img{
     color: rgb(45, 42, 42);
 }
 
-
+button{
+    padding: 0;
+}
 .my-form-control {
     border-top: 0;
     border-left: 0;
@@ -105,5 +107,7 @@ textarea.my-form-control{
     color: white;
     margin: 0 .5rem;
     font-size: 1rem;
-    padding: 1rem;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
