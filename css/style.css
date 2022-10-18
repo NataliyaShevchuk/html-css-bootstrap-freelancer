@@ -93,6 +93,9 @@ img{
 textarea.my-form-control{
     min-height: 150px;
 }
+.col-semplice{
+    padding: 1rem 2rem;
+}
 .rounded-btn{
     border: 1px solid white;
     background-color: transparent;
