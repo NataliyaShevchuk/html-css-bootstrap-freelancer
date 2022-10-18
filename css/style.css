@@ -93,3 +93,11 @@ img{
 textarea.my-form-control{
     min-height: 150px;
 }
+.rounded-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 0 .5rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
